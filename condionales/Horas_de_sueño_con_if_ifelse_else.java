@@ -1,4 +1,4 @@
-package condicionales;
+package condionales;
 import java.util.Scanner;
 
 public class Horas_de_sueño_con_if_ifelse_else {

@@ -1,5 +1,4 @@
-package condicionales;
-
+package condionales;
 import java.util.Scanner;
 
 public class SWITCH_CASE_VARIAS_CONDICIONES {

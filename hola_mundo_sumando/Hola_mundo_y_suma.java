@@ -1,4 +1,4 @@
-package Seccion_uno_hola_mundo;
+package hola_mundo_sumando;
 
 import java.util.Scanner;
 
