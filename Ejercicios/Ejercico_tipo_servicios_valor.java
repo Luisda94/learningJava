@@ -7,8 +7,10 @@ public class Ejercico_tipo_servicios_valor {
 	public static void main(String[] args) {
 
 		/*
-		 * Una gasolinera presta 4 clases de servicios. Por cada servicio que preste se
-		 * tienen los siguientes datos: clase de servicio prestado (valores del 1 al 4),
+		 * Una gasolinera presta 4 clases de servicios.
+		 *  Por cada servicio que preste se
+		 * tienen los siguientes datos: 
+		 * clase de servicio prestado (valores del 1 al 4),
 		 * jornada en la que se prestó el servicio (M: mañana, T: tarde)
 		 * 
 		 * y valor del servicio. Al final del día se requiere determinar el valor
