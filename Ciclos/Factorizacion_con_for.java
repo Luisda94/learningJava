@@ -2,8 +2,8 @@ package Ciclos;
 
 import java.util.Scanner;
 
-public class Ejercicios_Lunes_23_septiembre_2024_sence {
-
+public class Factorizacion_con_for {
+//Ejercicios_Lunes_23_septiembre_2024_sence
 	public static void main(String[] args) {
 		
 		
