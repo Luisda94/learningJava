@@ -5,14 +5,7 @@ import java.util.Scanner;
 public class DifenciandoTriangulos {
 
 	public static void main(String[] args) {
-		
-		
-		/*Scanner sr = new Scanner(System.in);
-		System.out.println();
-		double a = 
-		System.out.println();
-		
-		System.out.println(); */
+
 //lo de aqui es para saber los lados de un triangulo, esto usando condicionales 
 		        Scanner input = new Scanner(System.in);
 		        System.out.println("Ingrese los tres lados del triángulo:");
