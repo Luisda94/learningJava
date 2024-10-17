@@ -1,4 +1,4 @@
-package Ejercicio_uno_area_perimetroRectangulo;
+package Ejercicios;
 
 import java.util.Scanner;
 
