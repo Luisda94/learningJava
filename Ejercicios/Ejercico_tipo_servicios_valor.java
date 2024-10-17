@@ -56,7 +56,7 @@ public class Ejercico_tipo_servicios_valor {
 			System.out.println("Servicio " + (i + 1) + ": " + conteo[i] + " veces, Ganancias: " + ganancias[i]);
 		}
 
-		// Determinar el servicio más prestado
+		// Determinar el servicio más prestado usando un for y un if
 		int maxServicio = 0;
 		for (int i = 1; i < 4; i++) {
 			if (conteo[i] > conteo[maxServicio]) {
@@ -64,7 +64,7 @@ public class Ejercico_tipo_servicios_valor {
 			}
 		}
 
-		// Saber si fue más en mañana o tarde
+		// Saber si fue más en mañana o en la tarde
 		String momento = conteoM[maxServicio] >= conteoT[maxServicio] ? "mañana" : "tarde";
 		System.out.println("El servicio más prestado es el " + (maxServicio + 1) + ", se prestó más en la " + momento);
 
