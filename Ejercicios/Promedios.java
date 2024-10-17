@@ -1,6 +1,6 @@
 package Ejercicios;
 
-public class Lunes_23_promedio {
+public class Promedios {
 
 	public static void main(String[] args) {
 		
