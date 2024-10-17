@@ -17,7 +17,7 @@ public class Ejercicios_Lunes_23_septiembre_2024_sence {
 		int factorial = 1;
 		
 		//Aqui va el calculo del factorial con el ciclo for
-		for (int i = 1; i <= numero; i++) {
+		for (int i = 1; i <= numero; i++) { //el *= es un operador de asignacion
 			factorial *=i;// esto multiplica el valor del factorial por i
 			
 		}
