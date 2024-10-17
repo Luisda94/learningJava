@@ -36,7 +36,7 @@ public class Ejercico_tipo_servicios_valor {
 			double valor = scanner.nextDouble();
 
 			// Contar el servicio
-			conteo[tipo]++;
+			conteoM[tipo]++;
 			ganancias[tipo] += valor;
 
 			// Contar si fue en mañana o tarde
