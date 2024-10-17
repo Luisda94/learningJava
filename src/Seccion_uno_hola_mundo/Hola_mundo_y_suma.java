@@ -8,7 +8,7 @@ public class Hola_mundo_y_suma {
 	/*@SuppressWarnings("unused")
 	public static void main(String[] args) {
 */
-  System.out.println("Hola Mundo Clasico Elegante");
+  System.out.println("Hola Mundo, Clasico Elegante");
 
 	
 int numeroUno, numeroDos , resultado;
