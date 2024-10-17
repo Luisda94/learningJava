@@ -6,10 +6,10 @@ public class ParimetroAreaRectangulo {
 
 	public static void main(String[] args) {
 		
-
+//Scanner para colocar los datos dentro de consola. sr para abreviarlo y new para instanciarlo y poder usar el objeto escaner
 		 Scanner sr = new Scanner(System.in);
 	        
-	        // Solicitar la altura
+	        // Solicitar la altura // declaramos la variable y llamamos al escaner que se coloque directo en consola
 	        System.out.print("Ingrese la altura del rectángulo: en metros");
 	        double altura = sr.nextDouble();
 	        
