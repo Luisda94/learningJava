@@ -23,7 +23,7 @@ public class Hola_mundo_y_suma {
 
         resultado = numeroUno + numeroDos;
 
-        System.out.println("El resultado de la suma de " + numeroUno + " y " + numeroDos + " es :" + resultado);
+        System.out.println("El resultado de la suma de " + numeroUno + " y " + numeroDos + " es : " + resultado);
 
         sc.close();
     }
