@@ -2,10 +2,13 @@ package Aprendiendo_POO;
 
 public class TelefonoMovil {
 	//deberia de estar en un paquete modelo
-		private String marca;
+	
+	//justa abajo estamos declarando los atributos
+		private String marca; 
 		private String modelo;
 		private int numeroCamara;
 		private String color;
+		//Luego abajo creamos el constructor que es un metodo para poder darle un dato por cada atributo que este en este constructor
 		/**
 		 * @param marca
 		 * @param modelo
@@ -19,7 +22,7 @@ public class TelefonoMovil {
 		this.numeroCamara = numeroCamara;
 		this.color = color;
 	}
-
+//Aqui generamos los getters y los setters para poder acceder y mutar a los atributos
 	public String getMarca() {
 		return marca;
 	}
