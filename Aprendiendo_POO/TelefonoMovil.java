@@ -1,6 +1,7 @@
 package Aprendiendo_POO;
 
 public class TelefonoMovil {
+	//deberia de estar en un paquete modelo
 	private String marca;
 	private String modelo;
 	private int numeroCamara;
