@@ -47,5 +47,10 @@ public class TelefonoMovil {
 	public void setColor(String color) {
 		this.color = color;
 	}
-
+//ahora sobreescribmos el metodo para poder mostrar los atributos
+	@Override
+	public String toString() {
+		return "TelefonoMovil [marca=" + marca + ", modelo=" + modelo + ", numeroCamara=" + numeroCamara + ", color="
+				+ color + "]";
+	}
 }
