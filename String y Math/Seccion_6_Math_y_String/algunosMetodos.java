@@ -34,7 +34,10 @@ public class algunosMetodos {
 		String numeroDecimal = "2.5";
 		double decimal = Double.parseDouble(numeroDecimal);
 		System.out.println(decimal);
-
+		String cadena3 = "hola mundo";
+		String cadena4 = "HOLA MUNDO 2";
+		System.out.println(cadena3.toUpperCase());
+		System.out.println(cadena4.toLowerCase());
 
 	}
 
