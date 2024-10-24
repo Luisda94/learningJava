@@ -11,5 +11,6 @@
 	<classpathentry kind="src" path="String y Math"/>
 	<classpathentry kind="src" path="src_Calculando_imc_POO"/>
 	<classpathentry kind="src" path="Gestion_vendedor_producto"/>
+	<classpathentry kind="src" path="Credenciales_usuario_Seccion_6"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

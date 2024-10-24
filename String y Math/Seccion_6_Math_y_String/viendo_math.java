@@ -23,13 +23,13 @@ public class viendo_math {
 		System.out.println();
 		System.out.println(Math.sqrt(a)+"Raiz cuadrada");
 		System.out.println();
-		System.out.println(Math.pow(a, b)+"Potencia");
+		System.out.println(Math.pow(a, b)+" Potencia");
 		double c = 15.862;
 		System.out.println();
-		System.out.println(Math.round(c)+"redondeo");
-			
+		System.out.println(Math.round(c)+" redondeo");
+		System.out.println();
 		
-		//haciendo randons entre 5 y 10
+		//haciendo randons entre 5 y 10 
         int aleatorio = (int) (Math.random() * (10 - 5 + 1)) + 5;
 
         // Imprimir el número generado
