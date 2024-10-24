@@ -9,5 +9,7 @@
 	<classpathentry kind="src" path="Ejercicios"/>
 	<classpathentry kind="src" path="condionales"/>
 	<classpathentry kind="src" path="hola_mundo_sumando"/>
+	<classpathentry kind="src" path="src_Calculando_imc_POO"/>
+	<classpathentry kind="src" path="Gestion_vendedor_producto"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
