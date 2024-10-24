@@ -1,6 +1,6 @@
 package modelo_persona;
 
-public class Persona {
+public class persona {
 
 	private String Usuario;
 	private String Contrasenia;
@@ -8,7 +8,7 @@ public class Persona {
 	 * @param usuario
 	 * @param contrasenia
 	 */
-	public Persona(String usuario, String contrasenia) {
+	public persona(String usuario, String contrasenia) {
 		super();
 		Usuario = usuario;
 		Contrasenia = contrasenia;
