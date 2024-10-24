@@ -28,6 +28,11 @@ public class viendo_math {
 		System.out.println();
 		System.out.println(Math.round(c)+"redondeo");
 			
-	}
+		
+		//haciendo randons entre 5 y 10
+        int aleatorio = (int) (Math.random() * (10 - 5 + 1)) + 5;
 
+        // Imprimir el número generado
+        System.out.println("Número aleatorio entre 5 y 10: " + aleatorio);
+    }
 }
