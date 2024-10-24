@@ -13,6 +13,28 @@ public class persona {
 		Usuario = usuario;
 		Contrasenia = contrasenia;
 	}
+
+	/////aqui los Getters y los Setters
+	
+	public String getUsuario() {
+		return Usuario;
+	}
+	public void setUsuario(String usuario) {
+		Usuario = usuario;
+	}
+	public String getContrasenia() {
+		return Contrasenia;
+	}
+	public void setContrasenia(String contrasenia) {
+		Contrasenia = contrasenia;
+	}
+
+	
+	///// Creacion del To string 
+	@Override
+	public String toString() {
+		return "persona [Usuario=" + Usuario + ", Contrasenia=" + Contrasenia + "]";
+	}
 	
 	
 	
