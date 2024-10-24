@@ -33,11 +33,14 @@ public class GestionProductos {
             System.out.println("4. Salir");
             
             opcion = scanner.nextInt();
-            scanner.nextLine(); // Limpiar el buffer
+            scanner.nextLine(); // Limpiar el buffer, si no lo hago me da error. en el siguiente ciclo
             int cantidadProductos = 0; //para poder agregar se inicia en 0
 			switch (opcion) {
             case 1: // Ver productos
-                System.out.println("\nLista de productos:");
+                if (cantidadProductos == 0) {//no mas para mostrar un mensaje de que no hay nada aun
+                    System.out.println("No hay productos agregados aún.");
+                } else {
+                    System.out.println("\nLista de productos:");}
                 for (int i = 0; i < cantidadProductos ; i++) {
                     if (nombres[i] != null) { // Verificar que el producto no esté vacío
                         System.out.println("Nombre: " + nombres[i] + "; Valor: " + valores[i] + "; Descripción: " + descripciones[i]);
