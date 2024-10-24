@@ -13,21 +13,21 @@ aplicación no deja de funcionar hasta que el vendedor así lo decide.
 Los productos deberán tener nombre, valor y descripción.
  La lista inicial de productos es la
 siguiente: NOMBRE ... VALOR... DESCRIPCION*/
-public class GestionProductos {
+public class GestionProductos {//nombre de la clase
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);//para poder ingresar var en consola es un metodo de entrada/salida.
         
         // Arrays para almacenar productos unidimensionales por mi comodidad.
         String[] nombres = new String[7];
         double[] valores = new double[7];
-        String[] descripciones = new String[7];
+        String[] descripciones = new String[7];//7 por ser el limite que piden en el ejercicio.
     
-        int cantidadProductos = 0; //para poder agregar se inicia en 0
+        int cantidadProductos = 0; //para poder agregar se inicia en 0, mas adelante se usara.
 		 
-        int opcion;
+        int opcion;//esto se hace para poder usar el un meno mas adelante
         do {
-            // Mostrar menú
-            System.out.println("\n Elija una opcion:");
+            // Mostrar menú //se hace primero para usar de guia para el switch-case
+            System.out.println("\n Elija una opcion:"); // se pone el \n para dar un espacio extra.
             System.out.println("1. Ver productos");
             System.out.println("2. Agregar producto");
             System.out.println("3. Modificar producto");
@@ -37,16 +37,16 @@ public class GestionProductos {
             scanner.nextLine(); // Limpiar el buffer, si no lo hago me da error. en el siguiente ciclo
             
             
-            switch (opcion) {
+            switch (opcion) {//aqui comenzamos el de arriba
             
             case 1: // Ver productos
                 if (cantidadProductos == 0) {//no mas para mostrar un mensaje de que no hay nada aun
                     System.out.println("No hay productos agregados aún.");
-                } else {
+                } else {//para continuar haciendo el producto.
                     System.out.println("\nLista de productos:");}
-                for (int i = 0; i < cantidadProductos ; i++) {
-                    if (nombres[i] != null) { // Verificar que el producto no esté vacío
-                        System.out.println("Nombre: " + nombres[i] + "; Valor: " + valores[i] + "; Descripción: " + descripciones[i]);
+                for (int i = 0; i < cantidadProductos ; i++) {//contador para agregar productos
+                    if (nombres[i] != null) { // Verificar que el producto no esté vacío, es decir sea diferente de nulo.
+                        System.out.println("Producto: " + nombres[i] + "; Valor: " + valores[i] + "; Descripción: " + descripciones[i]);
                     }
                 }
                 break;
@@ -81,7 +81,7 @@ public class GestionProductos {
                     descripciones[index] = scanner.nextLine();
                     System.out.println("Producto modificado exitosamente.");
                 } else {
-                    System.out.println("Índice inválido.");
+                    System.out.println("Índice inválido o no existe.");
                 }
                 break;
 
