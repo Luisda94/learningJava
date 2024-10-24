@@ -17,12 +17,13 @@ public class GestionProductos {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        // Arrays para almacenar productos
+        // Arrays para almacenar productos unidimensionales por mi comodidad.
         String[] nombres = new String[7];
         double[] valores = new double[7];
         String[] descripciones = new String[7];
     
-    
+        int cantidadProductos = 0; //para poder agregar se inicia en 0
+		 
         int opcion;
         do {
             // Mostrar menú
@@ -34,8 +35,10 @@ public class GestionProductos {
             
             opcion = scanner.nextInt();
             scanner.nextLine(); // Limpiar el buffer, si no lo hago me da error. en el siguiente ciclo
-            int cantidadProductos = 0; //para poder agregar se inicia en 0
-			switch (opcion) {
+            
+            
+            switch (opcion) {
+            
             case 1: // Ver productos
                 if (cantidadProductos == 0) {//no mas para mostrar un mensaje de que no hay nada aun
                     System.out.println("No hay productos agregados aún.");
