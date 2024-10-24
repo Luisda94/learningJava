@@ -10,7 +10,8 @@ public class algunosMetodos {
 		System.out.println(cadena.equalsIgnoreCase(cadena));
 		
 		String cadena1 = "Mi segunda cadena";
-		
+		//cuenta la cantidad de espacios y caracteres que tiene una cadena.
+		System.out.println(cadena1.length());
 	}
 
 }
