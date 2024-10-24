@@ -1,4 +1,4 @@
-package Aprendiendo_POO;
+package Prueba_final_Arrays;
 import java.util.Scanner;
 /*EJERCICIO:
 Deberás crear una aplicación para mostrar distintos productos. 
