@@ -34,7 +34,7 @@ public class GestionProductos {
             
             opcion = scanner.nextInt();
             scanner.nextLine(); // Limpiar el buffer
-            int cantidadProductos = 7; //maxima cantidad 
+            int cantidadProductos = 0; //para poder agregar se inicia en 0
 			switch (opcion) {
             case 1: // Ver productos
                 System.out.println("\nLista de productos:");
