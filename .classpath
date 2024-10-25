@@ -5,7 +5,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="src_Ciclos_PruebaArrays"/>
 	<classpathentry kind="src" path="Ejercicios"/>
 	<classpathentry kind="src" path="condionales"/>
 	<classpathentry kind="src" path="String y Math"/>
