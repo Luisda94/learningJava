@@ -22,6 +22,48 @@ String usuarioIngresado = scanner.nextLine();
 System.out.println("Ingrese su contraseña:");
 String contraseniaIngresada = scanner.nextLine();
 
+// Verificar credenciales
+boolean accesoPermitido = false;
+for (Persona persona : personas) {
+    if (persona.getUsuario().equals(usuarioIngresado) && persona.getContrasenia().equals(contraseniaIngresada)) {
+        accesoPermitido = true;
+        break;
+    }
+}
+//Si las credenciales son correctas, mostrar el menú
+if (accesoPermitido) {
+    OperacionesMatematicas operaciones = new OperacionesMatematicas();
+    
+    System.out.println("Acceso concedido. Seleccione una opción:");
+    System.out.println("1. Calcular la raíz cuadrada de un número");
+    System.out.println("2. Ver el valor de Pi");
+    System.out.println("3. Calcular la potencia de un número");
+
+    int opcion = scanner.nextInt();
+
+    switch (opcion) {
+        case 1:
+            System.out.println("Ingrese un número para calcular la raíz cuadrada:");
+            double numero = scanner.nextDouble();
+            System.out.println("La raíz cuadrada de " + numero + " es: " + operaciones.calcularRaizCuadrada(numero));
+            break;
+        case 2:
+            System.out.println("El valor de Pi es: " + operaciones.obtenerValorPi());
+            break;
+        case 3:
+            System.out.println("Ingrese la base:");
+            double base = scanner.nextDouble();
+            System.out.println("Ingrese el exponente:");
+            double exponente = scanner.nextDouble();
+            System.out.println(base + " elevado a " + exponente + " es: " + operaciones.calcularPotencia(base, exponente));
+            break;
+        default:
+            System.out.println("Opción no válida.");
+            break;
+    }
+} else {
+    System.out.println("Credenciales incorrectas.");
+}
 
 
 
