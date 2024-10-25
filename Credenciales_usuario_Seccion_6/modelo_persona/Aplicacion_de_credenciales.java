@@ -34,7 +34,7 @@ for (Persona persona : personas) {
 if (accesoPermitido) {
     OperacionesMatematicas operaciones = new OperacionesMatematicas();
     
-    System.out.println("Acceso concedido. Seleccione una opción:");
+    System.out.println("Bienvenido "+ usuarioIngresado +"\n ¿Que desea realizar?");
     System.out.println("1. Calcular la raíz cuadrada de un número");
     System.out.println("2. Ver el valor de Pi");
     System.out.println("3. Calcular la potencia de un número");
@@ -45,10 +45,10 @@ if (accesoPermitido) {
         case 1:
             System.out.println("Ingrese un número para calcular la raíz cuadrada:");
             double numero = scanner.nextDouble();
-            System.out.println("La raíz cuadrada de " + numero + " es: " + operaciones.calcularRaizCuadrada(numero));
+            System.out.println("La raíz cuadrada de " + numero + " es: \n" + operaciones.calcularRaizCuadrada(numero));
             break;
         case 2:
-            System.out.println("El valor de Pi es: " + operaciones.obtenerValorPi());
+            System.out.println("El valor de Pi es: \n" + operaciones.obtenerValorPi());
             break;
         case 3:
             System.out.println("Ingrese la base:");
