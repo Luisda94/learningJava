@@ -8,11 +8,10 @@ public class Persona {
 	 * @param usuario
 	 * @param contrasenia
 	 */
-	public Persona(String usuario, String contrasenia) {
-		super();
-		Usuario = usuario;
-		Contrasenia = contrasenia;
-	}
+	 public Persona(String Usuario, String Contrasenia) {
+	        this.Usuario = Usuario;  // 'this.Usuario' se refiere al atributo de la clase
+	        this.Contrasenia = Contrasenia;  // 'this.Contrasenia' se refiere al atributo de la clase
+	    }
 
 	/////aqui los Getters y los Setters
 	

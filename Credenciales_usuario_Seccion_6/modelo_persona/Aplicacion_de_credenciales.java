@@ -9,7 +9,11 @@ public class Aplicacion_de_credenciales {
 		//se trae el Scanner para escribir desde la consola.
 Scanner scanner = new Scanner(System.in);
 
-	Persona Persona1 = new Persona("Miguel Canseco","Contra123");
+// Crear un arreglo de objetos Persona
+Persona[] personas = new Persona[3];
+personas[0] = new Persona("Miguel Canseco", "Contra123");
+personas[1] = new Persona("Ana Perez", "Password321");
+personas[2] = new Persona("Andre Perz","1234");
 
 
 
