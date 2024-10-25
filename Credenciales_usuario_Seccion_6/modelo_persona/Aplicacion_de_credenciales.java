@@ -10,6 +10,7 @@ public class Aplicacion_de_credenciales {
 Scanner scanner = new Scanner(System.in);
 
 // Crear un arreglo de objetos Persona
+// podria ser el usario simplemente Alex234
 Persona[] personas = new Persona[3];
 personas[0] = new Persona("Miguel Canseco", "Contra123");
 personas[1] = new Persona("Ana Perez", "Password321");
